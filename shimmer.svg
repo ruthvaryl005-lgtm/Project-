@@ -1,0 +1,124 @@
+<svg viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg">  
+  <!-- Title -->  
+  <text x="400" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">  
+    Programmable Shimmering Display Device  
+  </text>    <!-- Main Device View -->    <g id="main-device">  
+    <!-- Container outline -->  
+    <rect x="150" y="60" width="280" height="420" fill="#e8f4f8" stroke="#333" stroke-width="3" rx="15"/>  
+    <text x="290" y="85" font-size="14" text-anchor="middle" fill="#666">Lotion/Blueband Container</text>  <!-- Glass screen protector -->  
+<rect x="170" y="100" width="240" height="320" fill="url(#glass-gradient)" stroke="#1a5f7a" stroke-width="2"/>  
+<text x="290" y="440" font-size="12" text-anchor="middle" fill="#1a5f7a">Glass Screen Protector</text>  
+  
+<!-- Oil/Water layer with shimmer effect -->  
+<rect x="175" y="105" width="230" height="310" fill="url(#shimmer-gradient)" opacity="0.7"/>  
+<circle cx="220" cy="150" r="15" fill="rgba(255,215,0,0.4)"/>  
+<circle cx="350" cy="180" r="20" fill="rgba(255,215,0,0.3)"/>  
+<circle cx="260" cy="250" r="18" fill="rgba(255,215,0,0.35)"/>  
+<circle cx="330" cy="300" r="12" fill="rgba(255,215,0,0.4)"/>  
+<circle cx="200" cy="350" r="16" fill="rgba(255,215,0,0.3)"/>  
+<text x="290" y="455" font-size="11" text-anchor="middle" fill="#666">Oil + Water + Metal Particles</text>
+
+  </g>    <!-- Cross-section view -->    <g id="cross-section" transform="translate(0, 500)">  
+    <text x="400" y="20" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">  
+      Cross-Section View  
+    </text>  <!-- Layers -->  
+<!-- Glass -->  
+<rect x="150" y="50" width="500" height="30" fill="#b8d8e8" stroke="#333" stroke-width="2"/>  
+<text x="80" y="70" font-size="12" fill="#333">Glass Screen</text>  
+  
+<!-- Oil/Water -->  
+<rect x="150" y="80" width="500" height="60" fill="url(#liquid-gradient)" stroke="#333" stroke-width="2"/>  
+<text x="60" y="115" font-size="12" fill="#333">Oil/Water Mix</text>  
+  
+<!-- Oil droplets -->  
+<ellipse cx="200" cy="110" rx="15" ry="20" fill="rgba(255,215,0,0.5)" stroke="#d4af37" stroke-width="1"/>  
+<ellipse cx="280" cy="100" rx="18" ry="22" fill="rgba(255,215,0,0.5)" stroke="#d4af37" stroke-width="1"/>  
+<ellipse cx="400" cy="115" rx="12" ry="18" fill="rgba(255,215,0,0.5)" stroke="#d4af37" stroke-width="1"/>  
+<ellipse cx="550" cy="105" rx="16" ry="20" fill="rgba(255,215,0,0.5)" stroke="#d4af37" stroke-width="1"/>  
+  
+<!-- Foil grid -->  
+<rect x="150" y="140" width="500" height="5" fill="#c0c0c0" stroke="#333" stroke-width="1"/>  
+<rect x="150" y="150" width="500" height="5" fill="#c0c0c0" stroke="#333" stroke-width="1"/>  
+<rect x="150" y="160" width="500" height="5" fill="#c0c0c0" stroke="#333" stroke-width="1"/>  
+<text x="50" y="158" font-size="12" fill="#333">Foil Grid</text>  
+  
+<!-- Wax insulation -->  
+<rect x="150" y="165" width="500" height="15" fill="#f4e4c1" stroke="#333" stroke-width="2"/>  
+<text x="45" y="178" font-size="12" fill="#333">Wax Layer</text>  
+  
+<!-- Back container -->  
+<rect x="150" y="180" width="500" height="20" fill="#8b7355" stroke="#333" stroke-width="2"/>  
+<text x="80" y="195" font-size="12" fill="#fff">Container Back</text>  
+  
+<!-- Electric field lines -->  
+<line x1="250" y1="145" x2="250" y2="100" stroke="#ff6b6b" stroke-width="2" stroke-dasharray="4,4"/>  
+<line x1="450" y1="152" x2="450" y2="110" stroke="#ff6b6b" stroke-width="2" stroke-dasharray="4,4"/>  
+<text x="320" y="125" font-size="11" fill="#ff6b6b" font-weight="bold">⚡ Electric Field</text>
+
+  </g>    <!-- Wiring diagram -->    <g id="wiring" transform="translate(480, 60)">  
+    <text x="80" y="0" font-size="16" font-weight="bold" fill="#333">Control Circuit</text>  <!-- Battery -->  
+<rect x="50" y="20" width="40" height="60" fill="#333" stroke="#000" stroke-width="2"/>  
+<text x="70" y="50" font-size="20" fill="#fff" text-anchor="middle">+</text>  
+<text x="70" y="95" font-size="12" text-anchor="middle">Battery</text>  
+  
+<!-- Wires -->  
+<line x1="70" y1="20" x2="70" y2="0" stroke="#ff0000" stroke-width="3"/>  
+<line x1="70" y1="0" x2="150" y2="0" stroke="#ff0000" stroke-width="3"/>  
+  
+<line x1="70" y1="80" x2="70" y2="120" stroke="#0000ff" stroke-width="3"/>  
+<line x1="70" y1="120" x2="150" y2="120" stroke="#0000ff" stroke-width="3"/>  
+  
+<!-- Switches (foil) -->  
+<rect x="150" y="-10" width="30" height="20" fill="#c0c0c0" stroke="#333" stroke-width="2" rx="3"/>  
+<rect x="150" y="30" width="30" height="20" fill="#c0c0c0" stroke="#333" stroke-width="2" rx="3"/>  
+<rect x="150" y="70" width="30" height="20" fill="#c0c0c0" stroke="#333" stroke-width="2" rx="3"/>  
+<rect x="150" y="110" width="30" height="20" fill="#c0c0c0" stroke="#333" stroke-width="2" rx="3"/>  
+  
+<text x="195" y="5" font-size="10" fill="#666">Foil</text>  
+<text x="195" y="45" font-size="10" fill="#666">Switches</text>  
+  
+<!-- To grid -->  
+<line x1="180" y1="0" x2="220" y2="0" stroke="#ff6b6b" stroke-width="2"/>  
+<line x1="180" y1="40" x2="220" y2="40" stroke="#ff6b6b" stroke-width="2"/>  
+<line x1="180" y1="80" x2="220" y2="80" stroke="#ff6b6b" stroke-width="2"/>  
+<line x1="180" y1="120" x2="220" y2="120" stroke="#ff6b6b" stroke-width="2"/>  
+  
+<text x="240" y="45" font-size="10" fill="#666">To Foil</text>  
+<text x="240" y="60" font-size="10" fill="#666">Grid Strips</text>  
+  
+<!-- Legend -->  
+<text x="10" y="160" font-size="12" font-weight="bold" fill="#333">How It Works:</text>  
+<text x="10" y="180" font-size="10" fill="#555">• Connect switches to</text>  
+<text x="10" y="195" font-size="10" fill="#555">  activate grid strips</text>  
+<text x="10" y="210" font-size="10" fill="#555">• Electric field moves</text>  
+<text x="10" y="225" font-size="10" fill="#555">  oil droplets</text>  
+<text x="10" y="240" font-size="10" fill="#555">• Creates shimmer</text>  
+<text x="10" y="255" font-size="10" fill="#555">  patterns</text>
+
+  </g>    <!-- Gradients -->    <defs>  
+    <linearGradient id="glass-gradient" x1="0%" y1="0%" x2="100%" y2="100%">  
+      <stop offset="0%" style="stop-color:#e0f2f7;stop-opacity:0.8"/>  
+      <stop offset="100%" style="stop-color:#b8d8e8;stop-opacity:0.9"/>  
+    </linearGradient>  <linearGradient id="shimmer-gradient" x1="0%" y1="0%" x2="100%" y2="100%">  
+  <stop offset="0%" style="stop-color:#4fc3f7;stop-opacity:0.3"/>  
+  <stop offset="50%" style="stop-color:#81d4fa;stop-opacity:0.4"/>  
+  <stop offset="100%" style="stop-color:#29b6f6;stop-opacity:0.3"/>  
+</linearGradient>  
+  
+<linearGradient id="liquid-gradient" x1="0%" y1="0%" x2="0%" y2="100%">  
+  <stop offset="0%" style="stop-color:#b3e5fc;stop-opacity:0.6"/>  
+  <stop offset="100%" style="stop-color:#4fc3f7;stop-opacity:0.7"/>  
+</linearGradient>
+
+  </defs>    <!-- Material List -->    <g id="materials" transform="translate(480, 280)">  
+    <text x="80" y="0" font-size="16" font-weight="bold" fill="#333">Materials Used:</text>  
+    <text x="10" y="25" font-size="11" fill="#555">✓ Glass screen protector</text>  
+    <text x="10" y="45" font-size="11" fill="#555">✓ Oil + Water</text>  
+    <text x="10" y="65" font-size="11" fill="#555">✓ Metallic particles (foil)</text>  
+    <text x="10" y="85" font-size="11" fill="#555">✓ Foil grid</text>  
+    <text x="10" y="105" font-size="11" fill="#555">✓ Wire connections</text>  
+    <text x="10" y="125" font-size="11" fill="#555">✓ Battery/cells</text>  
+    <text x="10" y="145" font-size="11" fill="#555">✓ Wax insulation</text>  
+    <text x="10" y="165" font-size="11" fill="#555">✓ Container housing</text>  
+  </g>  
+</svg>#
